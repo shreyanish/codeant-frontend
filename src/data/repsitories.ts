@@ -1,0 +1,60 @@
+const repositoryList = [
+  {
+    key: 1,
+    title: "design-system",
+    visibility: "Public",
+    language: "React",
+    size: 7320,
+    updatedBefore: 1,
+  },
+  {
+    key: 2,
+    title: "codeant-ci-app",
+    visibility: "Private",
+    language: "Javascript",
+    size: 5871,
+    updatedBefore: 2,
+  },
+  {
+    key: 3,
+    title: "analytics-dashboard",
+    visibility: "Private",
+    language: "Python",
+    size: 4521,
+    updatedBefore: 5,
+  },
+  {
+    key: 4,
+    title: "mobile-app",
+    visibility: "Public",
+    language: "Swift",
+    size: 3096,
+    updatedBefore: 3,
+  },
+  {
+    key: 5,
+    title: "e-commerce-platform",
+    visibility: "Private",
+    language: "Java",
+    size: 6210,
+    updatedBefore: 6,
+  },
+  {
+    key: 6,
+    title: "blog-website",
+    visibility: "Public",
+    language: "HTML/CSS",
+    size: 1876,
+    updatedBefore: 4,
+  },
+  {
+    key: 7,
+    title: "social-network",
+    visibility: "Private",
+    language: "PHP",
+    size: 5432,
+    updatedBefore: 7,
+  },
+];
+
+export default repositoryList;

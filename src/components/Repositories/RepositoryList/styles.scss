@@ -1,0 +1,10 @@
+.repolist-parent {
+    border-left: 1px solid var(--stroke-secondary);
+    border-right: 1px solid var(--stroke-secondary);
+    border-bottom: 1px solid var(--stroke-secondary);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: relative;
+    overflow-y: auto;
+    flex: 1;
+}

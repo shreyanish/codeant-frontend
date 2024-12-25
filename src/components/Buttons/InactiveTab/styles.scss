@@ -1,0 +1,16 @@
+.inactive-parent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--background-element);
+  color: var(--text-secondary);
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+
+  .inactive-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: var(--inter-semibold);
+  }
+}

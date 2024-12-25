@@ -1,0 +1,10 @@
+.home-parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+
+  @media screen and (max-width: 740px) {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,29 @@
+.dropdown-parent {
+  color: var(--text-primary);
+  background-color: var(--background-element);
+  border: 1px solid var(--stroke-primary);
+  border-radius: 8px;
+  padding: 8px 8px;
+  margin: 0px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 740px) {
+    margin: 0px 16px 0px 16px;
+  }
+
+  .dropdown-user {
+    font-size: 16px;
+    line-height: 22px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: var(--inter-regular);
+
+    @media screen and (max-width:740px) {
+        width: auto;
+    }
+  }
+}

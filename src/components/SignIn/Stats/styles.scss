@@ -1,0 +1,18 @@
+.stats-parent {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 1px var(--stroke-secondary);
+    background-color: var(--background-element);
+
+    @media screen and (max-width:740px) {
+        display: none;
+    }
+
+    .stats-bg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

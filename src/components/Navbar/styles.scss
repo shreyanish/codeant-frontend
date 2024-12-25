@@ -1,0 +1,37 @@
+.navbar-parent {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px; //fit-content
+  height: 100%;
+  padding: 24px 16px 24px 16px;
+  background-color: var(--background-element);
+  border-right: 1px solid var(--stroke-secondary);
+  z-index: 10;
+
+  @media screen and (max-width: 740px) {
+    width: 100%;
+    height: fit-content;
+    z-index: 2;
+    border-bottom: 1px solid var(--stroke-secondary);
+    padding: 16px 16px;
+  }
+
+  .header-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      height: fit-content;
+    }
+  
+    .header-logo {
+      margin-left: 4px;
+  
+      @media screen and (max-width:740px) {
+        margin-left: 0px;
+      }
+    }
+  }
+}

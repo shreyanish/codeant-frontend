@@ -1,0 +1,63 @@
+.repoheader-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 24px;
+    background-color: var(--background-element);
+    color: var(--text-primary);
+    border: solid 1px var(--stroke-secondary);
+    border-radius: 12px 12px 0px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    @media screen and (max-width:740px) {
+        margin: 0px;
+        border-radius: 0px;
+        padding: 20px 16px;
+    }
+
+    .repoheader-titlesection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width:740px) {
+           flex-direction: column; 
+           align-items: flex-start;
+           gap: 12px;
+        }
+
+        .repoheader-details {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            .repoheader-title {
+                font-weight: var(--inter-semibold);
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+            .repoheader-count {
+                font-weight: var(--inter-regular);
+                font-size: 14px;
+                line-height: 20px;
+                color: var(--text-secondary);
+            }
+        }
+
+        .repoheader-actions {
+            display: flex;
+            gap: 12px;
+        }
+    }
+
+    .repoheader-search {
+        width: 360px;
+
+        @media screen and (max-width:740px) {
+           width: 100%; 
+        }
+    }
+}

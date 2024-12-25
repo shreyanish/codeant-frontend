@@ -1,0 +1,58 @@
+.navigation-parent {
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width:740px) {
+    margin-top: 48px;
+    position: absolute;
+    left: 0;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .navigation-top, .navigation-bottom{
+    background-color: var(--background-element);
+
+    .navigation-tabs {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+  
+      @media screen and (max-width:740px) {
+        height: min-content;
+        margin: 0px 16px 0px 16px;
+      }
+    }
+  }
+
+  .navigation-top {
+    .navigation-tabs {
+      margin-top: 18px;
+
+      @media screen and (max-width:740px) {
+        margin: 18px 16px 0px 16px;
+      }
+    }
+  }
+
+  .navigation-bottom {
+    @media screen and (max-width:740px) {
+      border-bottom: solid 1px var(--stroke-secondary);
+      padding-bottom: 24px;
+    }
+  }
+
+  .backdrop {
+    display: none;
+
+    @media screen and (max-width:740px) {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(108, 108, 108, 0.3);
+    }
+  }
+}
